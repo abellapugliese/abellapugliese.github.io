@@ -15,7 +15,6 @@ body{
 	font-weight:400;
 	margin:0;
 	padding:0;
-  	background-color:#026342;
 }
 
 .outer{
@@ -53,39 +52,40 @@ body{
 	margin-left:15px;
 	margin-top:15px;
 	width:50%;
-	vertical-align:middle;
 }
 
 .text{
-	vertical-align:middle;
+	text-align:center;
+	margin-top:300px;
 }
 
-tile{
+.tile{
 	background-repeat:no-repeat;
 	background-size:cover;
-	height:400px;
+	height:600px;
+	background-position:center;
 }
 
-tile1{
+.tile1{
 	background-image:url("img/starbucks1.jpg");
 }
 
-tile2{
+.tile2{
 	background-image:url("img/starbucks2.jpg");
 }
 
-tile3{
+.tile3{
 	background-image:url("img/starbucks3.jpg");
 }
 
-tile4{
+.tile4{
 	background-image:url("img/starbucks4.jpg");
 }
 
-tile5{
+.tile5{
 	background-image:url("img/starbucks5.jpg");
 }
 
-tile6{
+.tile6{
 	background-image:url("img/starbucks6.jpg");
 }
