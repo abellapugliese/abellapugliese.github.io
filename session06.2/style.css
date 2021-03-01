@@ -1,0 +1,225 @@
+@charset "UTF-8";
+/* CSS Document */
+
+@import url(//db.onlinewebfonts.com/c/d7e8a95865396cddca89b00080d2cba6?family=SoDo+Sans+SemiBold);
+
+@font-face {font-family: "SoDo Sans SemiBold";
+  src: url("d7e8a95865396cddca89b00080d2cba6.eot"); /* IE9*/
+  src: url("d7e8a95865396cddca89b00080d2cba6.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+  url("d7e8a95865396cddca89b00080d2cba6.woff2") format("woff2"), /* chrome、firefox */
+  url("d7e8a95865396cddca89b00080d2cba6.woff") format("woff"), /* chrome、firefox */
+  url("d7e8a95865396cddca89b00080d2cba6.ttf") format("truetype"), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+  url("d7e8a95865396cddca89b00080d2cba6.svg#SoDo Sans SemiBold") format("svg"); /* iOS 4.1- */
+}
+
+body{
+	font-family:"Sodo Sans Semibold", sans-serif;
+	font-size:20px;
+	font-weight:400;
+	margin:0;
+	padding:0;
+}
+
+.outer{
+  text-align:center;
+}
+
+.page{
+	position:relative;
+	margin-top:0px;
+	background-color:white;
+  	max-width:1200px;
+  	width:100%;
+  	height:100%;
+  	display:inline-block;
+	/*height:99vh;*/
+}
+
+.topofpage{
+	display:flex;
+	flex-direction:row;
+	flex-wrap:nowrap;
+	align-items:center;
+	justify-content:flex-start;
+	height:100px;
+}
+
+.navbar{
+	flex-grow:1;
+	text-align:left;
+	font-size:10px;
+	letter-spacing:0.5px;
+}
+
+.logo{
+	max-width:80px;
+	text-align:left;
+}
+
+.logo_img{
+	margin-left:10px;
+	margin-top:10px;
+	width:50%;
+}
+
+.location{
+	align-content:flex-end;
+	max-width:150px;
+	font-size:8px;
+	text-align:center;
+}
+
+.location_img{
+	width:10%;
+	align-content:center;
+	vertical-align:middle;
+	padding-right:5px;
+}
+
+.signin{
+	align-content:flex-end;
+	max-width:60px;
+	font-size:8px;
+	margin-right:15px;
+}
+
+.signin_img{
+	width:100%;
+}
+
+.joinnow{
+	align-content:flex-end;
+	max-width:75px;
+	font-size:8px;
+	margin-right:10px;
+}
+
+.joinnow_img{
+	width:100%;
+	padding-right:5px;
+}
+
+#menu{
+	display:none;
+}
+
+#menuoverlay{
+	position:absolute;
+	top:0px;
+	background-color:white;
+	width:100%;
+	height:98vh;
+	display:none;
+	text-align:center;
+}
+
+.innermenu{
+	margin-top:30px;
+}
+
+innermenu div{
+	padding-bottom:50px;
+}
+
+#close{
+	position:absolute;
+	top:10px;
+	right:10px;
+	font-size:40px;
+	cursor:pointer;
+}
+
+a{
+	color:#212121;
+	text-decoration:none;
+	font-weight:900;
+	margin-right:20px;
+}
+
+a:hover{
+	color:#026342;
+}
+
+.content{
+	padding-left:10px;
+	padding-right:10px;
+	background-color:#026342;
+	text-align:center;
+	color:white;
+	height:25px;
+}
+
+@media screen and (min-width:900px) and (max-width:1250px){
+	.page{
+		max-width:850px;
+	}
+}
+
+@media screen and (min-width:700px) and (max-width:900px){
+	.page{
+		max-width:650px;
+	}
+	
+	.navbar{
+		font-size:8px;
+	}
+	
+	.signin_img{
+		width:80%;
+	}
+	
+	.joinnow_img{
+		width:80%;
+	}
+}
+
+@media screen and (max-width:700px){
+	body{
+		background-color:#026342;
+	}
+	
+	.page{
+		max-width:480px;
+	}
+	
+	#menu{
+		display:inline-block;
+	}
+	
+	#menu img{
+		width:40px;
+		padding:10px;
+		cursor:pointer;
+		margin-top:10px;
+		margin-left:340px;
+	}
+	
+	.navbar{
+		display:none;
+	}
+	
+	.location{
+		display:none;
+	}
+	
+	.signin{
+		display:none;
+	}
+	
+	.joinnow{
+		display:none;
+	}
+	
+	.content{
+		background-color:white;
+		color:#026342;
+		height:98vh
+	}
+}
+
+
+	
+	
+	
+	
+	
