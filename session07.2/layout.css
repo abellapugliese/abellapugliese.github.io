@@ -1,0 +1,66 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body{
+  font-family:"Sodo Sans Semibold", sans-serif;
+  color:black;
+}
+
+.outer{
+	text-align:center;
+}
+
+.page{
+	max-width:1200px;
+	width:100%;
+	display:inline-block;
+}
+
+.topnav{
+	background-color:lightgray;
+	height:100px;
+	color:white;
+}
+
+.header{
+	color:#006341;
+	font-size:14px;
+}
+
+.header .section{
+	font-size:18px;
+	text-transform:uppercase;
+}
+
+.feature{
+	font-size:10px;
+	padding-top:5px;
+	color:#006341;
+}
+
+.feature .section{
+	font-size:14px;
+}
+
+.feature img{
+	width:100%;
+}
+
+.menu{
+	text-align:left;
+	color:#006341;
+}
+
+.custom{
+	text-align:left;
+	color:#006341;
+}
+
+.custom .section{
+	font-size:18px;
+	text-transform:uppercase;
+}
+
+.custom img{
+	width:100%;
+}
