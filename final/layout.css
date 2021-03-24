@@ -1,0 +1,289 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body{
+  font-family:"Sodo Sans Semibold", sans-serif;
+  color:black;
+}
+
+.outer{
+	text-align:center;
+}
+
+.page{
+	max-width:1200px;
+	width:100%;
+	display:inline-block;
+}
+
+.topnav{
+	background-color:lightgray;
+	height:100px;
+	color:white;
+}
+
+.header{
+	color:#006341;
+	font-size:14px;
+	background-color:#d8e8e2;
+}
+
+.header .section{
+	font-size:18px;
+	text-transform:uppercase;
+	padding:50px;
+}
+
+.feature{
+	font-size:10px;
+	padding-top:5px;
+	color:#006341;
+}
+
+.feature .section{
+	font-size:14px;
+}
+
+.feature img{
+	width:100%;
+}
+
+.menu{
+	text-align:left;
+	color:#006341;
+}
+
+.custom{
+	text-align:left;
+	color:#006341;
+}
+
+.custom .section{
+	font-size:18px;
+	text-transform:uppercase;
+}
+
+.custom img{
+	width:100%;
+}
+
+a{
+	color:#212121;
+	text-decoration:none;
+	font-weight:900;
+	margin-right:0px;
+}
+
+a:hover{
+	color:#026342;
+}
+
+.topofpage{
+	display:flex;
+	flex-direction:row;
+	flex-wrap:nowrap;
+	align-items:center;
+	justify-content:flex-start;
+	height:100px;
+}
+
+.navbar{
+	flex-grow:1;
+	text-align:left;
+	font-size:10px;
+	letter-spacing:0.5px;
+	display: flex;
+
+	height:100px;
+	align-items: center;
+    justify-content: center;
+}
+
+.logo{
+	max-width:80px;
+	text-align:left;
+}
+
+.logo_img{
+	margin-left:10px;
+	margin-top:10px;
+	width:60%;
+}
+
+.location{
+	align-content:flex-end;
+	max-width:120px;
+	font-size:12px;
+	text-align:center;
+	margin-top:20px;
+}
+
+.location_img{
+	width:20%;
+	align-content:center;
+	vertical-align:middle;
+	padding-right:10px;
+}
+
+.signin{
+	align-content:flex-end;
+	max-width:80px;
+	width:60px;
+	font-size:8px;
+	margin-right:0px;
+}
+
+.signin_img{
+	width:100%;
+}
+
+.joinnow{
+	align-content:flex-end;
+	max-width:400px;
+	width:400px;
+	font-size:8px;
+	margin-right:0px;
+}
+
+.joinnow_img{
+	width:100%;
+	padding-right:5px;
+}
+
+/* HOMEPAGE */
+/* COVID COMPONENT */
+.covid_content{
+	text-align:center;
+	height:100px;
+	background-color:#d8e8e2;
+	margin-top:20px;
+	margin-left:50px;
+	margin-right:50px;
+}
+
+.covid_text{
+	font-size:14px;
+	padding:20px;
+}
+
+/* FEATURES COMPONENT */
+.features{
+  height:100%;
+  overflow: auto;
+  margin-top:30px;
+  margin-bottom:30px;
+  text-align: center;
+  background-color:#f2f0ec;
+  color:#243832;
+  margin-left:50px;
+  margin-right:50px;
+}
+
+.features_text{
+	padding:20px;
+	padding-top:50px;
+	max-width:500px;
+}
+
+.features .section{
+   text-transform: uppercase;
+   font-size:30px;
+   font-weight: bold;
+   letter-spacing:2px;
+}
+
+.features img{
+	float: right;
+	max-width:400px;
+}
+
+/* DISCOVER COMPONENT */
+.discover_header{
+	font-size:40px;
+	text-align:center;
+	color:#243832;
+	padding:20px;
+}
+
+.discover_text{
+	padding:20px;
+	padding-top:50px;
+	max-width:500px;
+}
+
+.discover{
+  height:100%;
+  overflow: auto;
+  margin-top:20px;
+  margin-bottom:20px;
+  text-align: center;
+  background-color:#d8e8e2;
+  color:#243832;
+  margin-left:50px;
+  margin-right:50px;
+}
+
+.discover img{
+	float:right;
+	max-width:400px;
+	padding-left:20px;
+}
+
+/* BY YOU PAGE */
+/* HEADER COMPONENT */
+.byyou_header{
+	text-align:center;
+	height:150px;
+	background-color:#d8e8e2;
+	margin-top:20px;
+	margin-left:50px;
+	margin-right:50px;
+}
+
+.byyou_text{
+	font-size:14px;
+	padding:20px;
+	color:black;
+}
+
+.byyou_header .section{
+   text-transform: uppercase;
+   font-size:30px;
+   font-weight: bold;
+   letter-spacing:2px;
+}
+
+.custom_menu{
+	text-align:left;
+	height:300px;
+	margin-top:20px;
+	margin-left:50px;
+	margin-right:50px;
+	width:100%;
+	color:black;
+}
+
+.custom_menu .section{
+   text-transform: uppercase;
+   font-size:20px;
+   font-weight: bold;
+   letter-spacing:2px;
+}
+
+.custom_recipe{
+	text-align:left;
+	height:300px;
+	margin-top:0px;
+	margin-left:0px;
+	margin-right:50px;
+	width:100%;
+	height:100%;
+	color:black;
+}
+
+.custom_recipe .section{
+   text-transform: uppercase;
+   font-size:20px;
+   font-weight: bold;
+   letter-spacing:2px;
+}
